@@ -1,0 +1,165 @@
+/* 
+Что можно сделать:
+Заменить картинки jpg на svg 
+
+*/
+
+.header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 13px;
+    margin-top: 137px;
+    color: #000000;
+    letter-spacing: 0px;
+}
+
+.header_title{
+    font-weight: 700;
+    font-size: 38px;
+}
+.header_subtitle{
+    font-weight: 400;
+    font-size: 22px;
+    color: rgba(93, 112, 133, 1);
+    margin-left: -10px;
+}
+
+.list{
+    list-style: none;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 67px;
+    margin-bottom: 190px;
+    color: #fff;
+}
+
+.card{
+    min-height: 601px;
+    min-width: 266px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 201px auto 76px;
+}
+
+.card_1{
+    background: linear-gradient(rgba(253, 198, 36, 1), rgba(230, 196, 52, 1));
+}
+.card_2{
+    background: linear-gradient(rgba(85, 220, 231, 1),rgba(61, 202, 212, 1));
+}
+.card_3{
+    background: linear-gradient(rgba(107, 223, 255, 1),rgba(61, 172, 252, 1));
+}
+.card_4{
+    background: linear-gradient(rgba(191, 206, 220, 1),rgba(147, 159, 179, 1));
+}
+
+.card_header{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 266px;
+    height: 31px;
+    background: linear-gradient(rgba(99, 214, 254, 1),rgba(93, 212, 248, 1));
+    font-size: 14px;
+    font-weight: 500;
+    list-style-image: url(../images/Path.svg);
+    padding: 3px 0px 0px 19px;
+}
+
+.card_section_img{
+    grid-template-rows: 1/2;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 52px;
+}
+.card_img{
+    width: 70%;
+}
+.card_text{
+    grid-template-rows: 2/3;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 35px 36px 35px;
+}
+
+.card_title{
+    font-weight: 500;
+    font-size: 21px;
+}
+.card_subtitle{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.card_price{
+    font-weight: 700;
+    font-size: 67px;
+    letter-spacing: -0.1px;
+    margin: 25px 0px 8px 0px;
+}
+
+.dollar{
+    margin-top: 3px;
+    margin-right: 2px;
+    font-weight: 500;
+    font-size: 16px;
+    float: left;
+}
+
+.item_list{
+    list-style-image: url(../images/Done.svg);
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.card_item{
+    padding-left: 5px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.card_btn{
+    font-weight: 500;
+    font-size: 14px;
+    grid-template-rows: 3/4;
+    margin: 0px 35px 36px 35px;
+    color: #fff;
+    background-color: transparent;
+    border: #fff solid 2px ;
+    border-radius: 2px;
+}
+
+.card_btn:hover{
+    background-color: #fff;
+    color: transparent;
+}
+.btn_yellow:hover{
+    color: rgba(237, 193, 53, 1); 
+}
+.btn_white-blue:hover{
+    color: rgba(68, 199, 213, 1); 
+}
+.btn_blue:hover{
+    color: rgba(68, 169, 253, 1);
+}
+.btn_grey:hover{
+    color: rgba(154, 162, 180, 1);
+}   
+
+
+
+
+
