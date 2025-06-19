@@ -35,7 +35,6 @@
     gap: 6px;
     margin-top: 67px;
     margin-bottom: 190px;
-    color: #fff;
 }
 
 .card{
@@ -90,6 +89,7 @@
     display: flex;
     flex-direction: column;
     padding: 0px 35px 36px 35px;
+    color: #fff;
 }
 
 .card_title{
@@ -138,26 +138,16 @@
     margin: 0px 35px 36px 35px;
     color: #fff;
     background-color: transparent;
-    border: #fff solid 2px ;
+    border: solid 2px ;
     border-radius: 2px;
+    border-color: currentColor;
 }
 
 .card_btn:hover{
-    background-color: #fff;
-    color: transparent;
+    background-color: white;
+    color: inherit;
+    mix-blend-mode: screen;
 }
-.btn_yellow:hover{
-    color: rgba(237, 193, 53, 1); 
-}
-.btn_white-blue:hover{
-    color: rgba(68, 199, 213, 1); 
-}
-.btn_blue:hover{
-    color: rgba(68, 169, 253, 1);
-}
-.btn_grey:hover{
-    color: rgba(154, 162, 180, 1);
-}   
 
 
 
